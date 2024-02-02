@@ -1,4 +1,25 @@
-.nev_bar{
-    background-color: white;
-    color:
+.nav_bar{
+    background-color: rgb(126, 116, 116);
+    color:#052639;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+}
+
+.logo{
+    height: 150px;
+    margin-left: 0;
+    border-radius: 50%;
 }
