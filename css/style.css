@@ -1,4 +1,14 @@
-.nev_bar{
+.nav_bar{
     background-color: white;
-    color:
+    color:#052639;
+   padding: 10px 20px;
+    text-align: end;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: rgb(171, 155, 155);
+
+}
+
+.nav{
+    padding:20px;
 }
