@@ -1,14 +1,25 @@
 .nav_bar{
-    background-color: white;
+    background-color: rgb(126, 116, 116);
     color:#052639;
-   padding: 10px 20px;
-    text-align: end;
+    padding: 10px 20px;
     font-size: 30px;
     text-decoration: none;
-    background-color: rgb(171, 155, 155);
+}
 
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav{
-    padding:20px;
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+}
+
+.logo{
+    height: 150px;
+    margin-left: 0;
+    border-radius: 50%;
 }
