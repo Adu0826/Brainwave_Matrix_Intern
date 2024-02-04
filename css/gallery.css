@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+    color: #052639;
+    background-color: #c9c9e1;
+    margin: auto;
+    padding: 10px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 7px black;
+}
+
+.imgs{
+  
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.img_css{
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px black;
+    border-radius: 5px;
+}
+
+.img_css:hover{
+    transform: scale(1.03);
+}

@@ -7,8 +7,13 @@
     color: #052639;
     border: none;
     text-align: end;
+    box-shadow: 2px 2px 7px black;
    
+}
 
+.next{
+    background-color: #052639;
+    margin-top: 0;
 }
 
 

@@ -3,18 +3,19 @@
     text-decoration: none;
 }
 .nav_bar{
-    background-color: rgb(126, 116, 116);
+    background-color: #8585ad;
     color:#052639;
     padding: 10px 20px;
     font-size: 30px;
-    
-   
+    margin-bottom: 0;
 }
 
 .navigation_bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0;
+   
     
 }
 
@@ -22,14 +23,13 @@
    list-style: none;
    display: inline-block;
    padding: 20px;
-  
-}
+   margin-bottom: 0;
+  }
 
 .logo{
     height: 150px;
     margin-left: 0;
-    border-radius: 50%;
-   
+    border-radius: 50%;  
 }
 a{
     color: #052639;
