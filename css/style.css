@@ -1,28 +1,43 @@
+<<<<<<< HEAD
 
 *{
     text-decoration: none;
+=======
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+>>>>>>> 8e3090a1e1ca7f79d674a0fdee16e113b6b42c80
 }
 .nav_bar{
     background-color: #8585ad;
     color:#052639;
     padding: 10px 20px;
     font-size: 30px;
+<<<<<<< HEAD
     margin-bottom: 0;
+=======
+    
+    
+   
+>>>>>>> 8e3090a1e1ca7f79d674a0fdee16e113b6b42c80
 }
-
 .navigation_bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     margin-bottom: 0;
    
+=======
+>>>>>>> 8e3090a1e1ca7f79d674a0fdee16e113b6b42c80
     
 }
-
 .nav{
    list-style: none;
    display: inline-block;
    padding: 20px;
+<<<<<<< HEAD
    margin-bottom: 0;
   }
 
@@ -30,9 +45,99 @@
     height: 150px;
     margin-left: 0;
     border-radius: 50%;  
+=======
+  
+}
+.logo{
+    height: 150px;
+    margin-left: 0;
+    border-radius: 50%;
+   
+>>>>>>> 8e3090a1e1ca7f79d674a0fdee16e113b6b42c80
 }
 a{
     color: #052639;
 }
+<<<<<<< HEAD
 
 
+=======
+.next{
+    height:1000px;
+    background-image: url("./../images/scenodpageimage.jpg");
+}
+/**  .....................................................................*/
+/**  Css for Newly Added page on home  (2nd and 3rd image file)... By Omkar*/
+/**  ...................................................................*/
+
+.body {
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #008080;
+}
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    width: 600px;
+}
+p {
+    margin-bottom: 15px;
+    width: 600px;
+    font-size: 18px;
+}
+.container
+{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+   /** margin: 10px;*/
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 40px;
+   
+}
+.card_div
+{
+    margin-top: 20px;
+    height:650px;
+    width: 1290px;
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      border: 1px solid #ccc;
+      border-radius: 0px 50px 95px 50px;
+    
+      
+}
+img{
+    margin-top: 0px;
+    
+    margin-left: 240px;
+}
+.img1{
+    margin-top: 30px;
+    width: 550px;
+    height: 380px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.img2
+{
+    margin-top: 29px;
+    height: 228px;
+    margin-left: 637px;
+    
+}
+>>>>>>> 8e3090a1e1ca7f79d674a0fdee16e113b6b42c80
