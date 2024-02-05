@@ -1,25 +1,70 @@
-.nav_bar{
-    background-color: rgb(126, 116, 116);
-    color:#052639;
-    padding: 10px 20px;
-    font-size: 30px;
-    text-decoration: none;
-}
 
-.navigation_bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
-
-.nav{
-   list-style: none;
-   display: inline-block;
-   padding: 20px;
+.body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+  height: 750px;
+  
 }
+h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: rgb(184, 51, 51);
+ }
+p {
+  margin-bottom: 15px;
+  width: 600px;
+  font-size: 18px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  /** margin: 10px;*/
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 40px;
+}
+.card_div {
+  margin-top: 20px;
+  height: 650px;
+  width: 1290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-.logo{
-    height: 150px;
-    margin-left: 0;
-    border-radius: 50%;
+  border: 1px solid #ccc;
+  border-radius: 0px 51px 95px 50px;
+}
+img {
+  margin-top: 0px;
+
+  margin-left: 240px;
+}
+.img1 {
+  margin-top: 30px;
+  width: 550px;
+  height: 380px;
+  border-radius: 10px;
+  margin-left: 333px;
+  margin-top: 0.2px;
+  border-radius: 0px 50px 5px 0px;
+}
+.img2 {
+  margin-top: 58px;
+  height: 228px;
+  margin-left: 668px;
 }
