@@ -12,6 +12,12 @@
     padding: 10px 20px;
     font-size: 30px;
     margin-bottom: 0;
+    background-color: #f4f6f3 ;
+    background-image: url(./../images/gallery/nav_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
 }
 .navigation_bar{
     display: flex;

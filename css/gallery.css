@@ -44,15 +44,3 @@
     background-position: center;
     background-size: cover;
 }
-
-.nav_bar
-{
-    background-color: #f4f6f3 ;
-    background-image: url(./../images/gallery/nav_img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    
-   
-}
