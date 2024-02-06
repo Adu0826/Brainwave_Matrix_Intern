@@ -4,7 +4,7 @@
     height: 715px;
     display: flex;
 }
-.container{
+.container1{
     
     font-size: 35px;
     line-height: 1.8;
@@ -18,11 +18,11 @@
     
     
 }
-.container p{
+.container1 p{
     margin-left: 100px;
     font-size: 40px;
     
 }
-.container .hb{
+.container1 .hb{
     margin-left: 100px;
 }

@@ -45,6 +45,9 @@
   transform: translateY(-10px);
   transition: 0.3s;
 }
+video{
+  width:1550px;
+}
 .next {
   min-height: 100vh;
   background-position:top;
