@@ -53,10 +53,13 @@ p {
   border: 1px solid #ccc;
   border-radius: 0px 51px 95px 50px;
 }
-img {
-  margin-top: 0px;
-
-  margin-left: 240px;
+.imgs{
+  cursor: pointer;
+}
+.imgs .img2:hover
+{
+  transform: rotate(360deg);
+  transition: 1S;
 }
 .img1 {
   margin-top: 30px;
