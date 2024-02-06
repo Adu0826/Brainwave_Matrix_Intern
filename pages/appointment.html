@@ -1,65 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>appointment page</title>
-    <style>
-        *{
-            margin:0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-        }
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #e8e8e8;
-             
-        }
-        h1{
-            text-align: center;
-            align-items: center;
-        }
-        .container{
-            max-width:650px;
-            padding: 28px;
-            margin: 0 28px;
-            border-radius: 10px;
-            background:#2a6c84;
-            box-shadow: 0 15px 20px rgba(0,0,0,0.6);
-        }
-        
-
-        .content{
-         
-            padding: 20px 0;
-        }
-
-         .inputbox input{ 
-            height: 40px;
-            width: 95%;
-           padding: 0 10px;
-           border-radius: 5px;
-           border: 1px solid #ccc;
-           outline: none;
-           color: #052639;
-
-
-        }  
-        button{
-            text-align: center;
-            margin-left: 130px;
-            padding: 10px ;
-            border-radius: 10px;
-        
-        }
-        button:hover {
-    background-color:#e7ca71;
-    
-}
-         
-
-    </style>
+    <link rel="stylesheet" href="./../css/appointment.css">
 </head>
 <body>
         <div class="container">
@@ -89,7 +31,9 @@
                         </div>
                         </div>
                         
-                    <button>Submit Request</button>
+                    <button>
+                        <a href="./../pages/thankyou.html">Submit Request</a>
+                    </button>
                 </form>
             </div>
 </body>
