@@ -25,7 +25,7 @@
     
 }
 
-.img_css:hover{
+.card:hover{
     transform: scale(1.03);
    box-shadow: 8px 8px 20px #538eb1;
 }
