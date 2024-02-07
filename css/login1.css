@@ -7,7 +7,9 @@
   }
 
   body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    background-image: url("./../images/loginback.jpg");
+
+
     
   }
 
@@ -18,7 +20,7 @@
     align-items: center;
     justify-content: center;
     background-color: #e8e8e8;
-    background-image: url("./../images/clinic1.jpg");
+    background-image: url("./../images/loginback.jpg");
     background-repeat: none;
     background-size: cover;
   }
