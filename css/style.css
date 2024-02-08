@@ -42,6 +42,7 @@
   text-decoration: none;
   color: black;
 }
+
 .body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -50,7 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #008080;
+  background-color: #ADD8E6;
   height: 750px;
   
 }
@@ -64,28 +65,107 @@ p {
   width: 600px;
   font-size: 18px;
 }
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  width: 400px;
-  height: 600px;
-  /** margin: 10px;*/
-  padding: 15px;
-  text-align: center;
-  display: inline-block;
-  margin-top: 0px;
-  margin-left: 40px;
-}
-.card_div {
+.carddiv {
   margin-top: 20px;
-  height: 650px;
-  width: 1290px;
+ /** height: 650px;
+  width: 1290px;*/
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-
+  justify-content:space-between;
   border: 1px solid #ccc;
-  border-radius: 0px 51px 95px 50px;
+  border: none;
+}
+.container h1
+{
+  color: black;
+  font-size: 30px;
+  padding-left: 60px;
+  height: 35px;
+}
+.container {
+  margin-left: 0px; 
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border: 5px solid black;
+  height: 600px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 25px 25px 60px 3px black;
+  margin-right: 10px;
+}
+.container .pc 
+{
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.container .pcp
+{
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.container h3
+{
+  padding-left: 90px;
+  padding-bottom: 5px;
+}
+.container button{
+  margin-left: 170px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.container .bta
+{
+  padding: 10px;
+  font-size: 15px;
+  color: black;
+}
+.container:hover{
+  transform: translateX(-20px);
+  transition: 1s;
+}
+.container1{
+  border: 5px solid black; 
+  background-color: white;
+  color: black;
+  padding: 20px;
+  padding-right: 20px;
+  margin-left: 90px;
+  height: 600px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 25px 25px 60px 3px black;
+}
+.container1 h2{
+ padding-left: 40px;
+}
+.container1 button{
+  margin-left: 170px;
+
+
+}
+.container1 a{
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  color: black;
+
+}
+.container1:hover{
+  transform: translateX(20px);
+  transition: 1s;
+}
+.container1 .pcp{
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.container1 .strg{
+  padding-left: 60px;
+  font-size: 22px;
+}
+.cntp
+{
+  text-align: center;
 }
 .imgs{
   cursor: pointer;
@@ -94,18 +174,14 @@ p {
 {
   transform: rotate(360deg);
   transition: 1S;
+  
 }
 .img1 {
   margin-top: 30px;
-  width: 550px;
-  height: 380px;
+  width: 300px;
+  height: 250px;
   border-radius: 10px;
-  margin-left: 333px;
+  margin-left: 70px;
   margin-top: 0.2px;
-  border-radius: 0px 50px 5px 0px;
-}
-.img2 {
-  margin-top: 58px;
-  height: 228px;
-  margin-left: 668px;
+  
 }

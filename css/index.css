@@ -4,17 +4,22 @@
   box-sizing: border-box;
 }
 .header {
-  background-color: white;
+  background-color: #00b3b3;
   min-height: 10vh;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
- 
+}
+.header .headerheading
+{
+  font-size: 30px;
+  margin-right: 250px;
+  margin-left: 10px;
 }
 .navbar a {
   color: black;
@@ -24,25 +29,17 @@
   padding-right: 10px;
 
 }
-.navbar a:hover,
-.navbar a.active{
-
- background-color:  rgb(236, 19, 22);
-}
-.logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  padding: 10px 10px;
-  margin-left: 30px;
-}
 .btn {
   /**margin: 10px;*/
-  background-color: cyan;
+  background-color: aqua;
+  margin-left: 70px;
+  margin-right: 20px;
   color: black;
   border: 2px groove black;
-  padding: 5px 15px 5px 5px;
+  padding:8px 5px 8px 5px;
   cursor: pointer;
+  box-shadow: 0px 10px 40px 10px #abb8c3;
+  border-radius: 2px;
 }
 .btn a{
   font-size: 15px;
@@ -51,9 +48,7 @@
   transform: translateY(-10px);
   transition: 0.3s;
 }
-video{
-  width:1517px;
-}
+
 .next {
   min-height: 100vh;
   background-position:top;
@@ -80,30 +75,141 @@ video{
   font-size: 40px;
   margin-left: 15px;
 }
-.header .headerheading{
-  font-size: 40px;
-  margin-right: 250px;
-  margin-left: 10px;
-}
+
 
 .btna{
   font-size: 15px;
   margin-top: 250px;
   margin-left: 180px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
   font-size: 20px;
   text-decoration: none;
   color: black;
-  background-color: cyan;
+  background-color: transparent;
+}
+.btna a{
+  text-decoration: none;
+  color: black;
 }
 .btna:hover{
   transform: translateY(-8px);
   transition: 0.51s;
   border-radius: 20px;
+  background-color: aquamarine;
 }
 .btnd{
   margin-top: 20px;
   margin-left: 100px;
   font-size: 30px;
   
+}
+.abt{
+ margin-bottom: 0px;
+ height: 100px;
+ align-items: center;
+  background-color:   #00b3b3;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+.about-banner .w100{
+  border:5px solid #7ad1d0;
+}
+.cntu{
+  margin-bottom: 0px;
+ height: 100px;
+ align-items: center;
+  background-color:   #00b3b3;
+  
+  padding-top: 20px;
+  height: 90px;
+  padding-left: 600px;
+}
+.map
+{
+  display: flex;
+  background-color: #ADD8E6;
+  
+}
+.mapinfo
+{
+  padding: 20px 30px 20px 30px;
+  margin: 60px 0px 20px 80px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  box-shadow: 15px 25px 60px 3px black;
+}
+.mapinfo:hover{
+  transform: translateY(-12px);
+  transition: 1s;
+}
+.mapinfo .span{
+  padding-left: 75px;
+}
+.mapinfo{
+  font-size: 30px;
+
+}
+.mapinfo .callp
+{
+  padding-top: 30px;
+}
+.maph2{
+  padding-left: 0px;
+}
+.mailp,.callp,.mapp
+{
+  font-size: 22px;
+  
+  padding-left: 20px;
+}
+.mapp{
+  line-height: 1.5;
+}
+.google-map{
+  margin-left:100px;
+  margin-top: 90px;
+  
+}
+.google-map .omap{
+  box-shadow: none;
+ 
+}
+.google-map .omap:hover{
+  transform: translateY(-15px);
+  transition: 1s;
+  box-shadow: 15px 25px 60px 3px black;
+  border-radius: 20px;
+}
+.tm{
+  padding-left: 20px;
+  font-size: 25px;
+  padding-bottom: 0px;
+}.tmp{
+  margin-left: 90px;
+  padding-top: 0px;
+  font-size: 22px;
+}
+.wcsd{
+  padding-left: 100px;
+  margin-bottom: 0px;
+ height: 90px;
+ align-items: center;
+  background-color:   #00b3b3;
+  
+  padding-top: 20px;
+ 
+}
+.parent
+{
+  background-color:#ADD8E6;
+  display: flex;
+}
+.wc{
+
+}
+.wcimg
+{
+  background-color:#00b3b3 ;
 }
