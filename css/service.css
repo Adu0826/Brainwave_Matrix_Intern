@@ -2,15 +2,14 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: #052639;
-    background-color: #54c4c1;
-}
+   }
 
  .heading
  {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    color: #052639;
  }
 
  .info{
@@ -24,6 +23,8 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #54c4c1;
+    color: #052639;
  }
 
  .services{
@@ -57,3 +58,99 @@
     font-size: 18px;
     padding-top: 20px;
 }
+
+
+
+
+
+
+.footer-main{
+    border-top: 1px solid #b7b7b7;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.quick-links{
+    width: 24%;
+    text-align: left;
+}
+.footer{
+    padding: 40px 80px 5px 80px;
+    background-color: #070720;
+    color: white;
+}
+.footer-text{
+    margin-top: 10px;
+    width: 240px;
+    font-size: 18px;
+}
+
+.quick-links ul li{
+    list-style: none;
+}
+.links{
+    width: 170px;
+    font-size: 25px;
+    border-start-start-radius:40px ;
+    text-align: center;
+}
+
+.quick-links ul{
+    margin-top: 15px;
+}
+.quick-links ul li{
+    font-size: 16px;
+    line-height: 35px;
+    
+}
+.address{
+    margin-top: 15px;
+}
+.contact{
+    margin-top: 10px;
+    line-height: 35px;
+}
+.made{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.made i{
+    color: rgb(209, 5, 5);
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 0 0 0;
+}
+.footer-icon{
+    font-size: 20px;
+  
+}
+
+.social-icons i{
+    margin: 15px 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+
+.f_img{
+   height: 40px;
+   margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
