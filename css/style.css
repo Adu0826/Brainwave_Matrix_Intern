@@ -1,4 +1,38 @@
 
+*{
+    text-decoration: none;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+    background-color: #8585ad;
+    color:#052639;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-bottom: 0;
+    background-color: #f4f6f3 ;
+    background-image: url(./../images/gallery/nav_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;  
+}
+.nav{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+   margin-bottom: 0;
+  }
+
 * {
   text-decoration: none;
   margin: 0;
