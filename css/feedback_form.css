@@ -1,13 +1,19 @@
+
+
 body { 
     margin: 0; 
     display: flex; 
     align-items: center; 
     justify-content: space-around; 
     flex-direction: column; 
-    height: 100vh; 
+    height: 100vh;
     background-color: #fff; 
     font-family: 'Poppins', sans-serif;
+    background-image: url(./../images/loginback.jpg);
 } 
+img{
+    width: 1000px;
+}
 .textup { 
     text-align: center; 
     color: #e7ca71;
@@ -17,7 +23,8 @@ i {
     margin-right: 3px; 
 }
 .form-box { 
-    background-color:#2a6c84;
+    background-color:#ADD8E6;
+    
     box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
     padding: 15px; 
     border-radius: 8px; 
