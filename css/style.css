@@ -58,8 +58,8 @@
   width: 150px;
 }
 
-.h_social{
-  height: 30px;
+.h_social{/**
+  height: 30px;*/
   padding: 8px;
   position: static
 ;
@@ -69,14 +69,15 @@
 /**   Navbar  **/
 
 .mainnav {
-  background-color: rgb(110, 123, 127);
+ /** background-color: rgb(110, 123, 127);*/
+ background-color: rgb(135, 212, 242);
   min-height: 7vh;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100;
   display: flex;
-  padding-left: 50px;
+  padding: 5px 20px 0px  50px;
 }
 .mainnav .headerheading
 {

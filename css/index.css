@@ -13,7 +13,8 @@
     height: 800px;
     background-image: url("./../images/index/fpbg3.png");
     text-align: start;
-    width: 1520px;
+    width: 100%;
+    /**width: 1520px;*/
     color: aliceblue;
     
     
@@ -90,8 +91,9 @@
 }
 .mapinfo
 {
+  display: flex;
   padding: 20px 30px 20px 30px;
-  margin: 100px 0px 100px 80px;
+  margin: 100px 0px 80px 180px;
   border: 3px solid black;
   border-radius: 20px;
   background-color: whitesmoke;
@@ -99,11 +101,11 @@
  
 }
 .mapinfo:hover{
-  transform: translate3d(10px,-12px,10px);
+  transform: translate3d(0px,-12px,5px);
   transition: 1s;
 }
 .mapinfo .span{
-  padding-left: 75px;
+  padding-left: 85px;
 }
 .mapinfo{
   font-size: 30px;
@@ -125,9 +127,10 @@
 .mapp{
   line-height: 1.5;
 }
-.google-map{
- 
-  margin: 140px 0px 100px 70px;
+.google-map .omap{
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10px 0px 0px 70px;
   
 }
 .google-map .omap{
@@ -135,7 +138,7 @@
  
 }
 .google-map .omap:hover{
-  transform: translate3d(-20px,-15px,-20px);
+  transform: translate3d(-2px,-10px,-20px);
   transition: 1s;
   box-shadow: 15px 25px 60px 3px black;
   border-radius: 20px;
