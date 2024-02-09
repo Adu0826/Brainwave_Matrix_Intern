@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .container{
-    margin: auto;
+    margin: 20px ;
     display: flex;
     flex-direction: row;
     border-radius: 15px;
@@ -14,11 +12,11 @@
     overflow: hidden;
 }
 .navbar{
-    background-color: #94cbff;
+    background-color: #00b3b3;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .logo{
     height: 80px;
@@ -32,12 +30,13 @@
     border-radius: 20px;
 }
 .nav-text:hover{
-    color: #94cbff;
+    color: #00b3b3;
     background-color: #2f0468;
     border-radius: 20px;
     transition: 0.4s;
 }
 .info{
+    font-size: 22px ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,6 +44,7 @@
     text-align: center;
     margin: 20px;
     border: 2px solid #2f0468;
+    border-radius: 15px;
     }
 .info:hover{
     border-radius: 10px;
@@ -66,7 +66,7 @@ body{
     font-weight: 400;
 }
 .form{
-    padding: 20px;
+    padding: 55px;
 }
 .form h3{
     font-size: 20px;
@@ -74,7 +74,7 @@ body{
     margin-bottom: 1px;
 }
 .Contact{
-    display: grid;
+    display: grid ;
     row-gap: 1rem;
 }
 .Contact input
@@ -82,7 +82,7 @@ body{
     width: 100%;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 20px;
     font-size: 0.9rem;
     border-radius: 0.4rem;
 }
@@ -103,11 +103,12 @@ body{
     height: 100%;
 }
 .basic{
-    margin-left: 90px;
-    padding-left: 150px;
+    margin-top:75px;
+    margin-right:230px;
+    padding-left: 200px;
 }
 .d {
-    background-color: #2f0468;
+    background-color: #1B2F47;
     color: #94cbff;
     border: none;
     border-radius: 30px;
@@ -119,8 +120,8 @@ body{
 }
 .d:hover{
     text-align: center;
-    background-color: mintcream;
-    border-radius: 7px;;
+    background-color: #ffb950;
+    border-radius: 30px;;
     color: black;
 }
 
@@ -209,5 +210,37 @@ button{
     border: 2px solid black;
 }
 .btn{
-    margin: 20px;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: aqua;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.header {
+  background-color: #00b3b3;
+  min-height: 7vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerheading
+{
+  font-size: 27px;
+  margin-right: 250px;
+  margin-left: 10px;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 25px;
+  padding-right: 10px;
 }
