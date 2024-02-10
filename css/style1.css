@@ -5,6 +5,7 @@
     border-radius: 15px;
     overflow: hidden;
     border: 2px solid #2f0468;
+    background-color: #1B2F47;
 }
 .container:hover{
     border-radius: 10px;
@@ -45,6 +46,7 @@
     margin: 20px;
     border: 2px solid #2f0468;
     border-radius: 15px;
+    background-color: #fffff7;
     }
 .info:hover{
     border-radius: 10px;
@@ -108,21 +110,24 @@ body{
     padding-left: 200px;
 }
 .d {
-    background-color: #1B2F47;
+   
     color: #94cbff;
     border: none;
     border-radius: 30px;
-    padding: 20px;
+    padding: 10px 30px  ;
     font-family: "Aclonica", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
+    background-color: #ffb950;
+    color: black;
+    margin-top: 25px;
 }
 .d:hover{
     text-align: center;
     background-color: #ffb950;
     border-radius: 30px;;
-    color: black;
+    color: white;
 }
 
 .icon{
@@ -149,7 +154,7 @@ body{
     padding: 3px;
 }
 .c:hover{
-    background-color: #81ced6color: black;
+    background-color: #81ced6;
     text-align: center;
     width: 90px;
     background-color: white;
