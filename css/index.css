@@ -417,3 +417,50 @@ p {
   box-shadow: 0px 35px 50px 3px black;/**
   box-shadow: 0px 35px 50px 3px cyan;*/
 }
+
+
+/** media screen */
+@media (min-width:920px)
+ {
+  .btn {
+    margin-left: 120px;
+    margin-right: 20px;
+   padding:8px 5px 8px 5px;
+    
+  }
+  .mainnav img{
+    
+    display: none ;
+  }
+}
+@media (max-width: 768px)
+{
+  .mainnav {
+   min-height: 8vh;
+    /** position: fixed;*/
+     top: 0;
+     left: 0;
+     width: 768px;
+     height: auto;
+     display: flex;
+     padding: 5px 5px 0px  1%;
+   }
+   .navbar{
+     padding-top: 5px;
+   }
+   .navbar a {
+    
+     padding-left: 0px;
+     font-size: 30px;
+     padding-right: 10px;
+   
+   }
+   .btn {
+     margin-left: 0px;
+     margin-right: 20px;
+    padding:8px 5px 8px 5px;
+   }
+   .btn a{
+     font-size: 15px;
+   }
+}

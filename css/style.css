@@ -75,19 +75,18 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100;
+  width: 100%;
   display: flex;
-  padding: 5px 20px 0px  50px;
-}
-.mainnav .headerheading
-{
-  font-size: 30px;
-  margin-right: 250px;
-  margin-left: 10px;
-  padding-top: 5px;
+ 
+  /**padding: 5px 20px 0px  50px;*/
 }
 .navbar{
   padding-top: 5px;
+  margin-left: 250px;
+ /** gap: 30px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navbar a {
   color: black;
