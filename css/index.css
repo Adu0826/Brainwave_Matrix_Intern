@@ -38,21 +38,22 @@
   font-size: 15px;
   margin-top: 250px;
   margin-left: 180px;
-  padding: 10px 10px 5px 10px;
+  padding: 10px 10px 10px 10px;
   font-size: 20px;
   text-decoration: none;
   color: black;
-  background-color: transparent;
+  background-color: #7A87F5;
+  border-radius: 20px;
+  border: none ;
 }
 .btna a{
   text-decoration: none;
   color: black;
 }
 .btna:hover{
-  transform: translateY(-8px);
-  transition: 0.51s;
+  transition: 0.6s;
   border-radius: 20px;
-  background-color: aquamarine;
+  background-color: #61D1E8;
 }
 .btnd{
   margin-top: 20px;
@@ -98,7 +99,7 @@
   border-radius: 20px;
   background-color: whitesmoke;
   box-shadow: 15px 25px 60px 3px black;
- 
+  border: none;
 }
 .mapinfo:hover{
   transform: translate3d(0px,-12px,5px);
@@ -735,4 +736,21 @@ p {
    .btn a{
      font-size: 15px;
    }
+}
+.navbtn
+{
+  background-color: #052E3E;
+  border-radius: 20px;
+  border: none;
+}
+.navbtn a
+{
+  color: #87E3FD;
+}
+.navbtn:hover
+{
+  box-shadow: 6px 6px 0px rgb(255, 255, 255);
+}
+.btna:hover{
+  box-shadow: 5px 5px 0px 0px #7A87F5;
 }

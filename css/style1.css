@@ -68,7 +68,6 @@ h1{
 body{
     margin: 0;
     padding: 0;
-    font-family: "Aclonica", sans-serif;
     background-color: white;
     font-weight: 400;
 }
@@ -96,6 +95,7 @@ body{
 .Contact textarea{
     resize: none;
     height: 200px;
+    background-color:#fffff7;
 }
 .Contact .btn {
     border: none;
@@ -120,7 +120,6 @@ body{
     border: none;
     border-radius: 30px;
     padding: 15px 30px  ;
-    font-family: "Aclonica", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
@@ -175,6 +174,7 @@ body{
     margin-left: 5px;
     width: 400px;
     border-radius: 7px;
+    background-color:#fffff7;
 }
 .int1{
     border: 1.6px solid black;
@@ -254,4 +254,3 @@ button{
   font-size: 25px;
   padding-right: 10px;
 }
-
