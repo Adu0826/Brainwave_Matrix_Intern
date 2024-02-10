@@ -154,6 +154,7 @@
 
 .linking{
     color: white;
+    text-align: left;
 }
 
 
@@ -262,7 +263,37 @@
     .nav{
         display: none;
     }
+
+    .h_social{
+        display: none;
+    }
+
+    .font{
+        display: none;
+    }
+
+    .footer-main{
+        
+        flex-direction: column; 
+    }
+
+    .ham_menu{
+        height: 30px;
+        right: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .h1{
+        text-align:left ;
+    }
+
+    
 }
+
+
+
+
 
 /* aquamarine
 rgb(29, 70, 142); */
