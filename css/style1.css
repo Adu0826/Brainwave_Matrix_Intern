@@ -1,3 +1,7 @@
+.main{
+    background-color: rgb(249, 239, 239)
+    ;
+}
 .container{
     margin: 20px ;
     display: flex;
