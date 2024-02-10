@@ -152,6 +152,34 @@
     .nav{
         display: none;
     }
+
+    .h_social{
+        display: none;
+    }
+
+    .font{
+        display: none;
+    }
+
+    .footer-main{
+        
+        flex-direction: column; 
+    }
+
+    .ham_menu{
+        height: 30px;
+        right: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .h1{
+        text-align:left ;
+    }
+
+    .footer{
+       padding: 10px;
+    }
 }
 
 /* aquamarine
