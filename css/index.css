@@ -13,7 +13,7 @@
     height: 800px;
     background-image: url("./../images/index/fpbg3.png");
     text-align: start;
-    width: 100%;
+    width: auto;
     /**width: 1520px;*/
     color: aliceblue;
     
