@@ -23,26 +23,31 @@
         min-height: 8vh;
         top: 0;
         left: 0;
-        position: sticky;
+        position: relative;
         display: flex;
-        width:750px;
+        width:500px;
     }
     .navbar{
       display: none;
     }
     .ham{
-        margin-top: 5px;
+        margin-top: 25px;
         margin-left: 10px;
+        padding-right: 20px;
     }
     .navbtn
     {
       text-decoration: none;
       background-color: aqua;
-      margin: 10px 180px 10px 30px;
-      padding: 10px;
-    
+      margin: 20px 80px 10px 19px;
+      padding-right: 30px;
+      padding-left: -10px;
+      border-radius: 15px;
+      font-size: 25px;
+     text-align:start ;
     }
     .navbtn a{
+      text-align: start;
       font-size: 15px;
       
     }
@@ -53,7 +58,7 @@
     }
     .abt{
         height: 60px;  
-        padding-left: 300px;
+        padding-left: 100px;
           
        }
        .next{
@@ -95,17 +100,26 @@
        
         line-height: 1.6;
         height: auto;
-        padding: 0 20px;
+        padding: 0 10px;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap; 
         width: 100%; 
       }
       .container{
-        margin-left: 90px;
+        margin-left: -30px;
       }
       .container1{
-        padding: 2px 15px 0px 20px;
+        padding: 2px 5px 0px 5px;
+        margin-left: -10.1px;
+      }
+      .container:hover
+      {
+        transform: translate3d(0px,-2px,0px);
+      }
+      .container1:hover
+      {
+        transform: translate3d(0px,-2px,0px);
       }
       
       .carddiv{
@@ -117,7 +131,7 @@
       }
       
       .wcsd{
-        padding-left: 20px;
+        padding-left: 7px;
         padding-bottom: 10px;
        height: 80px;
        padding-top: 23px;
@@ -139,68 +153,65 @@
       {
         width: 460px;
         line-height: 1.7;
-        margin:10px 0px 20px 35px ;
+        margin:5px 0px 20px 5px ;
         border: 3px solid white; 
        padding: 0px 10px 10px 15px;
       
       }
       .wc:hover
       {
-        transition: 1s;
-        transform: translate3d(12px,4px,-2px);
-       
-      }
-      .wcimg
-      {
-        
-        margin-left: 170px;
-        margin-top: 10px;
+      transform: translate3d(-3px,4px,-12px);
       }
       .wc1 h2
       {
         padding-top: 5px;
         padding-bottom: 8px;
-        padding-left: 50px;
+        padding-left: 20px;
       }
       
       .wc1
       {
        padding: 5px 30px 10px 15px;
-        padding-left: 15px;
+        padding-left: 5px;
         padding-right: 50px;
-        margin:15px 0px 90px 30px ;
+        margin:15px 0px 90px 1px ;
         
       }
       .wc1:hover
       {
-        transform: translate3d(15px,4px,-2px);
+        transform: translate3d(0px,4px,-12px);
       }
       .wc1 img{
-        margin-top: 8px;
+        margin-top: 4px;
+        padding-left: 15px;
       }
       .wc2
       {
         padding-left: 20px;
-        margin:-50px 20px 90px 50px ;
+        margin:-50px 20px 90px 19px ;
         padding-bottom: 10px;
+      }
+      .wc2 h2{
+        padding-left: -10px;
+        margin-left: -80px;
       }
       .wc2 img{
         margin-top: 5px;
-        margin-left: 160px;
+        margin-left: 140px;
         margin-bottom: 0px;
       }
       .wc2:hover{
-        transform: translate3d(1.5px,5px,-5px);
+        transform: translate3d(0px,4px,-12px);
       }
       .cntu{
-        padding-left: 250px;
+        padding-left: 100px;
       }
       
       .map
       {
         display: flex;
         background-color: #ADD8E6;
-        height: 800px;
+        height: 750px;
         
       }
       .mapinfo
@@ -208,40 +219,66 @@
         display: flex;
         flex-direction: column;
         font-size: 20px;
-        padding: 20px 30px 20px 30px;
-        margin: 30px 10px 80px 40px;
-        border: 3px solid white;
-        
-        box-shadow: 15px 25px 60px 3px black;
-       
+        padding: 10px 0px 10px 0px;
+        margin: 30px 20px 80px 0px;
+        border: 3px solid white;       
       }
       .mapinfo:hover{
         transform: translate3d(0px,-4px,3px);
-        transition: 1s;
+       
       }
       
       .maph2{
-        padding-left: 50px;
+        padding-left: 30px;
         padding-bottom: 15px;
       }
       
       .google-map .omap{
         border: 3px solid black;
         border-radius: 20px;
-        margin: 10px -20px 0px 110px;
+        margin: 10px -20px 0px 90px;
         height: 290px;
-        padding-bottom: -20px ;
-      }
-      
-      .google-map .omap:hover{
-        transform: translate3d(2px,-10px,-20px);
-        transition: 1s;
-        box-shadow: 15px 25px 60px 3px black;
-        border-radius: 20px;
+        padding-bottom: 10px ;
       }
       .links{
-        padding-left: -50px;
+        padding-left: 100px;
         padding-right: 50px;
+        font-size: 40px;
+        padding-top: 20px;
+      }
+      .links li,a{
+        padding-left: 60px;
+        font-size: 20px;
+      }
+      .links ul,img
+      {
+        margin-left: 50px;
+        padding-top: 2px;
+        padding-left: 60px;
+
+      }
+      .cont {
+        padding-top: 35px;
+        padding-left: 80px;
+        font-size: 40px;
+      }
+      .linking{
+        padding-right: -10px;
+        padding-left: 100px;
+      }
+      .num{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 50px;
+      }
+      .made{
+        margin-left: -150px;
+        font-size: 26px;
+        color: rgb(215, 248, 250);
+      }
+      .copyright{
+        margin-left: -150px;
+        font-size: 20px;
       }
       
 }  
