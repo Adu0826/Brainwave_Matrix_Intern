@@ -69,17 +69,13 @@
 /**   Navbar  **/
 
 .mainnav {
-  background-color: rgb(135, 227, 253);
- /**background-color: rgb(135, 212, 242);*/
-  min-height: 8vh;
- 
-  top: 0;
-  left: 0;
- position: sticky;
-  display: flex;
-
- 
-  /**padding: 5px 20px 0px  50px;*/
+    background-color: rgb(135, 227, 253);
+    min-height: 8vh;
+    top: 0;
+    left: 0;
+    position: sticky;
+    display: flex;
+    width:1520px;
 }
 .navbar{
   padding-top: 5px;
@@ -121,13 +117,6 @@
   margin: 0;
   padding: 0;
 }
-.btn a{
-  text-decoration: none;
-  color: black;
-}
-
-
-
 
 /* footer */
 
