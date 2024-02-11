@@ -25,7 +25,7 @@
         left: 0;
         position: relative;
         display: flex;
-        width:500px;
+        width:auto;
     }
     .navbar{
       display: none;
@@ -38,7 +38,7 @@
     .navbtn
     {
       text-decoration: none;
-      background-color: aqua;
+      background-color: #99ccff;
       margin: 20px 80px 10px 19px;
       padding-right: 30px;
       padding-left: -10px;
@@ -49,6 +49,7 @@
     .navbtn a{
       text-align: start;
       font-size: 15px;
+      color: black;
       
     }
     .navbtn:hover {
