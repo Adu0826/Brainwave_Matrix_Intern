@@ -99,20 +99,27 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #2a6c84;
+    
     max-height: 450px;
     width: 400px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: #43a5da71 0px 30px 90px;
+    margin-left: -600px;
+    margin-top: -50px;
   }
-
+  img{
+    margin-left: 10px;
+    margin-bottom: -15px;
+  }
   .form {
-    background-color:#ADD8E6;
+    background-color:transparent;
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
     gap: 14px;
     padding: 24px;
+    
   }
 
   #chk {
