@@ -57,14 +57,9 @@
 .logo{
   width: 150px;
 }
-
-.h_social{/**
-  height: 30px;*/
-  padding: 8px;
-  position: static
-;
+.soicon{
+  padding-left: 10px;
 }
-
 
 /**   Navbar  **/
 
@@ -93,17 +88,22 @@
   padding-right: 10px;
 
 }
+.bn1{
+  padding: 20px;
+}
 .navbtn
 {
   text-decoration: none;
   background-color: aqua;
   margin: 10px 10px 10px 80px;
   padding: 10px;
+  padding: 10px 10px 10px 10px;
 
 }
 .navbtn a{
   font-size: 18px;
   color: black;
+  padding: 10px;
 }
 
 .navbtn:hover {
