@@ -122,7 +122,13 @@
       {
         transform: translate3d(0px,-2px,0px);
       }
-      
+      .quick-links
+      {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
       .carddiv{
         display: flex;
         flex-direction: column;
@@ -266,6 +272,7 @@
       .linking{
         padding-right: -10px;
         padding-left: 100px;
+        
       }
       .num{
         font-size: 25px;
@@ -283,5 +290,7 @@
       }
       
 }  
+@media (min-width:600px) and (max-width:768px)
+{}
     
 

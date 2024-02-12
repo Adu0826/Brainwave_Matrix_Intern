@@ -2,16 +2,10 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /** Header */
-
-
-*{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
 
 .header{
   background-color:rgb(5, 46, 62);
@@ -112,20 +106,16 @@
   box-shadow: 0px 10px 40px 10px rgb(34, 35, 30);
   transition: 0.3s;
 }
-* {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
 
 /* footer */
-
+       
 .footer-main{
   border-top: 1px solid #b7b7b7;
   padding: 15px 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 50px;
 
 }
 .quick-links{
@@ -133,11 +123,14 @@
   text-align: left;
   
 }
-.footer{
-  padding: 40px 80px 5px 80px;
-/**  background-color: #070720;*/
-background-color:rgb(5, 46, 62);
+.quick-links  a{
   color: white;
+}
+.footer{
+ padding: 50px 8%;
+  background-color: #070720;
+  color: white;
+  
 }
 .footer-text{
   margin-top: 10px;
@@ -203,9 +196,105 @@ background-color:rgb(5, 46, 62);
 
 .linking{
   color: white;
+  text-align: left;
 }
 
+@media screen and (max-width:1000px) 
+{
+  .footer-main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+  }
+  
+    .navicon
+    {
+        gap: 0px;
+        margin-left: -100px;
+       padding-right: -20px;
+    }
+    .mainnav {
+        background-color: rgb(135, 227, 253);
+        min-height: 8vh;
+        top: 0;
+        left: 0;
+        position: relative;
+        display: flex;
+        width:auto;
+    }
+    .navbar .active {
+      padding-left: 40px;
+      font-size: 20px;
+    }
+    .bn1{
+      margin-left: 50px;
+      padding-left: 20px;
+    }
+   .bn1a{
+    font-size: 50px;
+   }
+    .navbtn
+    {
+      text-decoration: none;
+      background-color: #99ccff;
+      margin: 10px 10px 10px 59px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 15px;
+      
+     text-align:start ;
+    }
+    .navbtn a{
+      text-align: start;
+      font-size: 50px;
+      color: black;
+      
+    }
+    .ql
+    {
+      margin-left: 50px; 
+      padding-left: 70px;     
+    }
+    .ql .linking1{
+      margin-left: 50px;
 
+    }
+    .ql1
+    {
+      padding-top: 40px;
+      margin-left: 50px; 
+      padding-left: 70px;     
+      padding-bottom: 40px;
+    }
+    .ql1 .f_img{
+      margin-left: 50px;
+    }
+    .ql2
+    {
+      margin-left: 50px; 
+      padding-left: 80px;     
+    }
+    .ql2 .linking{
+      padding-left: 20px;
+    }
+    .copyright{
+      display: none;
+    }
+    .wc2{
+      display: none;
+    }
+    .map{
+      height: 900px;
+    }
+    .parent{
+      font-size: 20px;
+    }
+   .wc h2{
+      padding-bottom: -20px;
+
+   }
+  }
 
 
 
