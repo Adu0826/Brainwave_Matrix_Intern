@@ -468,12 +468,9 @@ p {
         display: none ;
       }
 }
-@media (min-width:460px) and (max-width:760px)
+@media  (max-width:900px)
 {
-    .navbar .active
-    {
-        visibility: hidden;
-    }
+   
     .navicon
     {
         gap: 0px;
@@ -606,7 +603,7 @@ p {
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 800px;
+        height: 1170px;
        padding-bottom: 10px;
        width: 100%;
        
@@ -667,15 +664,20 @@ p {
         transform: translate3d(0px,4px,-12px);
       }
       .cntu{
-        padding-left: 100px;
+        padding-left: 250px;
       }
       
       .map
       {
         display: flex;
         background-color: #ADD8E6;
-        height: 750px;
+        height: 850px;
         
+      } .map .mapimg,.mapimg1{
+        margin-left: 30px;
+      }
+      .map .callp,.mailp{
+        margin-left: 30px;
       }
       .mapinfo
       {
@@ -683,7 +685,7 @@ p {
         flex-direction: column;
         font-size: 20px;
         padding: 10px 0px 10px 0px;
-        margin: 30px 20px 80px 0px;
+        margin: 30px 20px 80px 110px;
         border: 3px solid white;       
       }
       .mapinfo:hover{
@@ -699,26 +701,50 @@ p {
       .google-map .omap{
         border: 3px solid black;
         border-radius: 20px;
-        margin: 10px -20px 0px 90px;
+        margin: 10px -20px 0px 130px;
         height: 290px;
         padding-bottom: 10px ;
       }
       .links{
-        padding-left: 100px;
+        padding-left: -60px;
         padding-right: 50px;
         font-size: 40px;
         padding-top: 20px;
+        margin-left: -50px;
       }
       .links li,a{
-        padding-left: 60px;
+        padding-left: -60px;
         font-size: 20px;
       }
-      .links ul,img
-      {
-        margin-left: 50px;
-        padding-top: 2px;
-        padding-left: 60px;
-
+      .linking1{
+        margin-left: 0px;
+      }
+      .ql1 .f_img{
+        margin-left:-20px;
+       gap: 15px;
+      
+      }
+      .ql1{
+        width: 500px;
+      }
+      .ql1 .fimg{
+        margin-left:-20px;
+        padding-left: 5px;
+        padding-right: 10px;
+        height: 45px;
+        width: 45px;
+      }
+      .ql1 .fimg1{
+        padding-left: 5px;
+        padding-right: 10px;
+        height: 45px;
+        width: 45px;
+      }
+      .ql1 .fimg2{
+        padding-left: 5px;
+        padding-right: 10px;
+        height: 45px;
+        width: 45px;
       }
       .cont {
         padding-top: 35px;
@@ -726,8 +752,8 @@ p {
         font-size: 40px;
       }
       .linking{
-        padding-right: -10px;
-        padding-left: 100px;
+        padding-right: 20px;
+        padding-left: 0px;
       }
       .num{
         font-size: 25px;
@@ -739,8 +765,8 @@ p {
         font-size: 26px;
         color: rgb(215, 248, 250);
       }
-      .copyright{
-        margin-left: 10px;
+      .cpr {
+        margin-left: 0px;
         font-size: 15px;
       }
       
@@ -941,7 +967,7 @@ p {
   background-image: url("./../images/index/fpbg4.png");
 }
 }
-@media (min-width:840px) and (max-width:920px)
+@media screen and (min-width:840px) and (max-width:920px)
 {
   .mainnav {
     min-height: 3vh;
@@ -975,6 +1001,16 @@ p {
 .navbtn a{
   font-size: 16px;
   text-wrap: wrap;
+}
+.body {
+ 
+  line-height: 1.6;
+  height: auto;
+  padding: 0 20px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  width: 100%; 
 }
 }
 @media (min-width:920px) and (max-width:1050px)
