@@ -3,10 +3,27 @@
   <head>
 
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./../css/login1.css">
   </head>
   <body>
+    <div class="mainnav">
+      <h2 class="headerheading">Smile Care</h2>
+      <nav class="navbar">
+        <a href="./../index.html" class="active">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./feedback.html">Feedback</a>
+        <button class="btn">
+          <a href="./login1.html">Book Appointment</a>
+        </button>
+        
+      </nav>
+     
+    </div>
+ 
+ 
     <div class="container">
       <div class="main">
         <div class="login">
@@ -14,19 +31,29 @@
             <label for="chk" aria-hidden="true">Log in</label>
             <input
               class="input"
-              type="email id"
+              type="email"
               name="email id"
               placeholder="Email Id"
-              required
-            />
+              required>
             <input
-              class="input"
-              type="password"
-              name="pswd"
-              placeholder="Password"
-              required
-            />
-            <button>Log in</button>
+                class="input"
+                type="password"
+                name="pswd"
+                placeholder="Password"  
+                required> 
+               
+               <button>
+                  <a href="./appointment.html">
+                   log in
+                  </a>
+                </button>
+               
+               <a href="./../index.html">
+                <img src="./../images/index/home.png" height="30px" width="30px" alt="not found"></a>
+                <a href="./../index.html">Home
+                </a>
+                
+              </button>
           </form>
         </div>
       </div>

@@ -1,0 +1,309 @@
+
+/* middle body */
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+   }
+
+ .heading
+ {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: #052639;
+    background-color: rgb(249, 239, 239);
+ }
+
+ .info{
+    text-align: left;
+    font-size: 20px;
+ }
+
+ .cards{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(249, 239, 239);
+    color: #052639;
+ }
+
+ .services{
+    background-color: white;
+    height: 500px;
+    width: 230px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid none;
+    box-shadow: 5px 5px 10px #a3a3a3;
+    border-radius: 10px;
+}
+
+.services:hover{
+    transform: translateY(-10px);
+}
+
+.image{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.name{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.information{
+    background-color: white;
+    font-size: 18px;
+    padding-top: 20px;
+   
+}
+
+
+
+
+/* footer */
+
+.footer-main{
+    border-top: 1px solid #b7b7b7;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.quick-links{
+    width: 24%;
+    text-align: left;
+    
+}
+.footer{
+    padding: 40px 80px 5px 80px;
+    background-color: #070720;
+    color: white;
+}
+.footer-text{
+    margin-top: 10px;
+    width: 240px;
+    font-size: 18px;
+}
+
+.quick-links ul li{
+    list-style: none;
+}
+.links{
+    width: 170px;
+    font-size: 25px;
+    border-start-start-radius:40px ;
+    text-align: center;
+}
+
+.quick-links ul{
+    margin-top: 15px;
+}
+.quick-links ul li{
+    font-size: 16px;
+    line-height: 35px;
+    
+}
+.address{
+    margin-top: 15px;
+}
+.contact{
+    margin-top: 10px;
+    line-height: 35px;
+}
+.made{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.made i{
+    color: rgb(209, 5, 5);
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 0 0 0;
+}
+.footer-icon{
+    font-size: 20px;
+  
+}
+
+.social-icons i{
+    margin: 15px 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+
+.f_img{
+   height: 40px;
+   margin: 8px;
+}
+
+.linking{
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* header */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    background-color:rgb(5, 46, 62);
+    color: white;
+    display: flex; 
+   flex-direction: row;
+   justify-content: left;
+   align-items: center;
+   font-size: 20px;
+   position:static;
+   }
+
+
+.h_logo{
+   display: flex; 
+   flex-direction: row;
+   justify-content: left;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+   
+  
+}
+
+.address{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+    font-size: 20px;
+   text-align: left;
+   font-weight: bold;
+   position: static;
+   
+}
+
+.font{
+   
+    color: white;
+}
+
+.logo{
+    width: 150px;
+}
+
+.h_social{
+    height: 30px;
+    padding: 8px;
+    position: static
+;
+}
+
+.ham_menu{
+   height:45px ;
+    position: absolute;
+   right: 20px;
+   padding: 20px 30px;
+    
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(135, 212, 242);
+    position: relative;
+     text-align: center; 
+}
+
+.nav{
+    color: black;;
+    align-items: center;
+    font-size: 30px; 
+    text-align: center;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+
+
+ 
+@media screen and (min-width: 600px) {
+    .ham_menu{
+        visibility: hidden;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .ham_menu{
+        visibility: visible;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .h_social{
+        display: none;
+    }
+
+    .font{
+        display: none;
+    }
+
+    .footer-main{
+        
+        flex-direction: column; 
+    }
+
+    .ham_menu{
+        height: 30px;
+        right: 0px;
+        padding: 10px 20px;
+
+    }
+
+    .h1{
+        text-align:left ;
+    }
+
+    
+}
+
+
+
+
+
+/* aquamarine
+rgb(29, 70, 142); */
+
+
+
+
+
+
+
+
+
+

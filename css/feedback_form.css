@@ -1,15 +1,23 @@
+*{
+    font-size: 20px;
+}
+
 body { 
     margin: 0; 
     display: flex; 
     align-items: center; 
     justify-content: space-around; 
     flex-direction: column; 
-    height: 100vh; 
+    height: 100vh;
     background-color: #fff; 
     font-family: 'Poppins', sans-serif;
-    box-shadow: #43a5da71 0px 30px 90px;
-
+    background-image: url(./../images/loginback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
+img{
+    width: 1000px;
+}
 .textup { 
     text-align: center; 
     color: #e7ca71;
@@ -19,8 +27,9 @@ i {
     margin-right: 3px; 
 }
 .form-box { 
-    background-color:#2a6c84;
-    box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+    background-color:transparent;
+    margin-top: -80px;
+    box-shadow:none; 
     padding: 15px; 
     border-radius: 8px; 
     width: 400px; 
@@ -54,13 +63,14 @@ textarea {
 } 
 button { 
     background-color: #e7ca71;
-    color: #fff; 
+    color: black; 
+    margin-top: 7px;
     padding: 10px; 
     border: none; 
     border-radius: 25px; 
     cursor: pointer; 
     width: 100%; 
-    font-size: 15px; 
+    font-size: 22px; 
     transition: .2s linear; 
 } 
 button:hover { 
@@ -70,26 +80,22 @@ button:hover {
 } 
 h1 { 
     color:#052639;
-    text-align: center;
+   margin-left: -870px;
+   padding-bottom: 50px;
+   font-size: 35px;
 }
 .banner{
-    width: 100%;
-    height: 100vh;
+    width: 400px;
+    height: 550px;
     font-weight: bold;
     background-size: cover;
-    background-position: center;
+    background-position: start;
+    margin-left: -700px;
+    background-color: #ADD8E6;
+    padding: 50px 25px 10px 25px;
+
 }
-.navbar{
-    width: 100%;
-    height: 20px;
-    margin-bottom: 20px;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-}
-.logo{
+logo{
     width: 120px;
     cursor: pointer;
 }
