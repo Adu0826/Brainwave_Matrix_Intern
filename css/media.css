@@ -1,11 +1,4 @@
-@media (min-width:768px)
- {
-  
-    .mainnav img{
-    
-        display: none ;
-      }
-}
+
 @media (min-width:460px) and (max-width:760px)
 {
     .navbar .active
@@ -216,23 +209,25 @@
       
       .map
       {
-        display: flex;
+       
         background-color: #ADD8E6;
         height: 750px;
+        margin-left: -100px;
         
-      }
+      }/**
       .mapinfo
       {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         font-size: 20px;
-        padding: 10px 0px 10px 0px;
-        margin: 30px 20px 80px 0px;
-        border: 3px solid white;       
-      }
-      .mapinfo:hover{
-        transform: translate3d(0px,-4px,3px);
-       
+        margin-left: -100px;
+        border: 3px solid white;    
+        width: 50px;   
+      }*/
+      .mapinfo1{
+        margin-left: -100px;
       }
       
       .maph2{
@@ -294,3 +289,99 @@
 {}
     
 
+@media screen and (min-width:900px) and(max-width:1000px) 
+{
+  .footer-main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+  }
+  
+    .navicon
+    {
+        gap: 0px;
+        margin-left: -100px;
+       padding-right: -20px;
+    }
+    .mainnav {
+        background-color: rgb(135, 227, 253);
+        min-height: 8vh;
+        top: 0;
+        left: 0;
+        position: relative;
+        display: flex;
+        width:auto;
+    }
+    .navbar .active {
+      padding-left: 40px;
+      font-size: 20px;
+    }
+    .bn1{
+      margin-left: 50px;
+      padding-left: 20px;
+    }
+   .bn1a{
+    font-size: 50px;
+   }
+    .navbtn
+    {
+      text-decoration: none;
+      background-color: #99ccff;
+      margin: 10px 10px 10px 59px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 15px;
+      
+     text-align:start ;
+    }
+    .navbtn a{
+      text-align: start;
+      font-size: 50px;
+      color: black;
+      
+    }
+    .ql
+    {
+      margin-left: 50px; 
+      padding-left: 70px;     
+    }
+    .ql .linking1{
+      margin-left: 50px;
+
+    }
+    .ql1
+    {
+      padding-top: 40px;
+      margin-left: 50px; 
+      padding-left: 70px;     
+      padding-bottom: 40px;
+    }
+    .ql1 .f_img{
+      margin-left: 50px;
+    }
+    .ql2
+    {
+      margin-left: 50px; 
+      padding-left: 80px;     
+    }
+    .ql2 .linking{
+      padding-left: 20px;
+    }
+    .copyright{
+      display: none;
+    }
+    .wc2{
+      display: none;
+    }
+    .map{
+      height: 900px;
+    }
+    .parent{
+      font-size: 20px;
+    }
+   .wc h2{
+      padding-bottom: -20px;
+
+   }
+  }
