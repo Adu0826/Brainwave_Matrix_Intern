@@ -2,7 +2,7 @@
 
 Welcome to the Smile Dental Clinic repository! This readme provides essential information about our clinic, its services, and how to contribute to our project.
 
-![screenshot](./icons/readme.png)
+![screenshot](./icons/readme1.png)
 
 ## About Us
 
