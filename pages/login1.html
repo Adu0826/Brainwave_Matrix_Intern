@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Login Form</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Navbar */
+.mainnav {
+  background-color: rgb(135, 212, 242);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headerheading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #003b57;
+  margin-right: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #052639;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #1b75bc;
+}
+
+.btn {
+  background-color: #00e5ff;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #00c4d6;
+  transform: translateY(-3px);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.3SxotQ-SYniIEi1rc3XYwAHaEo&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Login Box */
+.main {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 26px;
+  font-weight: 600;
+  color: #003b57;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 20px 15px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #1b75bc;
+  outline: none;
+}
+
+.form button {
+  padding: 12px;
+  background-color: #f7b733;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #f4a21c;
+}
+
+.form button a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 15px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.form a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #003b57;
+  margin-top: 10px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.form a:hover {
+  color: #1b75bc;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="mainnav">
+      <h2 class="headerheading">Smile Care</h2>
+      <nav class="navbar">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./services.html">Services</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./feedback.html">Feedback</a>
+        <button class="btn">
+          <a href="./login1.html">Book Appointment</a>
+        </button>
+        
+      </nav>
+     
+    </div>
+ 
+ 
+    <div class="container">
+      <div class="main">
+        <div class="login">
+          <form class="form">
+            <label for="chk" aria-hidden="true">Log in</label>
+            <input
+              class="input"
+              type="email"
+              name="email id"
+              placeholder="Email Id"
+              required>
+            <input
+                class="input"
+                type="password"
+                name="pswd"
+                placeholder="Password"  
+                required> 
+               
+               <button>
+                  <a href="./appointment.html">
+                   log in
+                  </a>
+                </button>
+               
+               <a href="./../index.html">
+                <img src="./../images/index/home.png" height="30px" width="30px" alt="not found"></a>
+                <a href="./../index.html">Home
+                </a>
+                
+              </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
